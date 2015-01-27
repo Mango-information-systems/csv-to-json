@@ -1,0 +1,10 @@
+destination: ./_site
+lsi:         false
+markdown:    kramdown
+permalink:   none
+pygments:    true
+name:        Site name
+description: Site description
+url:         http://example.com
+baseurl:     /tool
+googleAnalytics: UA-...
