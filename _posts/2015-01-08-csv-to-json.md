@@ -64,7 +64,7 @@ scripts: [js/underscore-min.js, js/localforage.nopromises.min.js, js/papaparse.m
 	<div class="span4 offset1">
 		<h2>About</h2>
 		<p>This tools lets you convert CSV data to JSON format in a few clicks.</p>
-		<h3>Works offline</h3>
+		<h3>Offline first</h3>
 		<p>You can use the converter even when you're not connected to the Internet, it just works.</p>
 		<h3>Privacy friendly</h3>
 		<p>Your data never leaves your browser, thanks to the <a href="https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications" target="_blank">HTML5 File API</a>.</p>
