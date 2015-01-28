@@ -64,14 +64,14 @@ scripts: [js/underscore-min.js, js/localforage.nopromises.min.js, js/papaparse.m
 	<div class="span4 offset1">
 		<h2>About</h2>
 		<p>This tools lets you convert CSV data to JSON format in a few clicks.</p>
+		<h3>Works offline</h3>
+		<p>You can use the converter even when you're not connected to the Internet, it just works.</p>
+		<h3>Privacy friendly</h3>
+		<p>Your data never leaves your browser, thanks to the <a href="https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications" target="_blank">HTML5 File API</a>.</p>
 		<h3>Design</h3>
 		<p>We focused on making it easy and efficient. Do not hesitate to <a href="https://github.com/Mango-information-systems/csv-to-json/issues">contact us</a> to suggest improvements.</p>
 		<h3>Powerful</h3>
 		<p>We've made sure that large files also get converted and don't lock your browser.</p>
-		<h3>Privacy friendly</h3>
-		<p>Your data never leaves your browser, thanks to the <a href="https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications" target="_blank">HTML5 File API</a>.</p>
-		<h3>Works offline</h3>
-		<p>You can use the converter even when you're not connected to the Internet, it just works.</p>
 		<h3>Open source</h3>
 		<p>You can find the source code of this app <a href="https://github.com/Mango-information-systems/csv-to-json">on Github</a>.</p>
 		<p>We use the open source library <a href="http://papaparse.com/" target="_blank">papaParse</a> to perform the conversions.</p>
