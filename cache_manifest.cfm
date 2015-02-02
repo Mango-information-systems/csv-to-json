@@ -4,6 +4,7 @@
 --->
 <cfsavecontent variable="cacheManifest">
 CACHE MANIFEST
+#v0.0.3
 
 CACHE:
 /css/bootstrap.min.css
@@ -12,6 +13,7 @@ CACHE:
 /tool/css/2015-01-08-csv-to-json.css
 /img/mango-information-systems-logo-medium.png
 /img/glyphicons-halflings-white.png
+/img/glyphicons-halflings.png
 /js/jquery.js
 /js/bootstrap.min.js
 /js/underscore-min.js
