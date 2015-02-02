@@ -163,11 +163,11 @@ var views = {
 				</div> \
 				<div class="row-fluid"> \
 					<div class="span4 offset1"> \
-						<a title="convert another file" class="back btn btn-default"><i class="icon-chevron-left"></i> Back</a> \
+						<a title="convert another file" class="back btn btn-default"><i class="icon-chevron-left"></i> Convert another file</a> \
 						<% if (json.results.length < 1000) { %> \
 							<span class="pull-right" data-filename="<%= fileName %>"> \
 								<span class="muted"><em>Saved</em></span> \
-								<a title="delete file" class="btn btn-default delete"><i class="icon-remove"></i></a> \
+								<a title="delete file" class="btn btn-default delete"><i class="icon-remove"></i> Delete</a> \
 								<%= button %> \
 							</span> \
 						<% } %> \
@@ -176,7 +176,7 @@ var views = {
 				'
 
 			if (data.results.length < 1000) {
-				var button = views.fileDownloadButton(data, fileName, '<i class="icon-download-alt icon-white"></i>', '', 'btn-primary')
+				var button = views.fileDownloadButton(data, fileName, '<i class="icon-download-alt icon-white"></i> Download', '', 'btn-primary')
 			}
 			else {
 				var button = views.fileDownloadButton(data, fileName, 'Download results file', 'btn-block', 'btn-primary')
