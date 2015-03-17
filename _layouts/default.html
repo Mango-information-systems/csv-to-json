@@ -55,32 +55,29 @@
 	<link rel="apple-touch-icon-precomposed" href="/img/ico/apple-touch-icon-57-precomposed.png">
 </head>
 <body>
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a>
-				<a rel="home" href="/" class="brand">
-					<img width="145px" height="35px" alt="Mango Information Systems" src="/img/mango-information-systems-logo-medium.png">
-				</a>
-				<div class="nav-collapse">
-					<ul class="nav">
-						<li><a href="{{ site.url }}">Home</a></li>
-						<li><a href="{{ site.url }}/products/">Products</a></li>
-						<li><a href="{{ site.url }}/services/">Services</a></li>
-						<li><a href="{{ site.url }}/company/">Company</a></li>
-						<li class="active"><a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">Tool</a></li>
-						<li><a href="{{ site.url }}/blog/">Blog</a></li>
-						<li><a href="{{ site.url }}/contact">Contact</a></li>
-					</ul>
-				</div><!--/.nav-collapse -->
+	<div class="container-fluid">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a rel="home" href="/" class="brand">
+						<img width="145px" height="35px" alt="Mango Information Systems" src="/img/mango-information-systems-logo-medium.png">
+					</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+							<li><a href="{{ site.url }}">Home</a></li>
+							<li><a href="{{ site.url }}/convert/">Conversion optimization</a></li>
+							<li class="active"><a href="{{ site.url }}/blog/">Blog</a></li>
+							<li><a class="contact" href="{{ site.url }}/contact/">Contact</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container-fluid">
 		{{ content }}
 	</div>
 	<footer>
