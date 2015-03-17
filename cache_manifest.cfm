@@ -4,7 +4,7 @@
 --->
 <cfsavecontent variable="cacheManifest">
 CACHE MANIFEST
-#v0.0.3
+#v0.0.4
 
 CACHE:
 /css/bootstrap.min.css
