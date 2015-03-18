@@ -1,6 +1,10 @@
 csv-to-json
 =============
 
+## status: archived
+
+This repository's content has been merged together with the main website. Please follow https://github.com/Mango-information-systems/mango-is-website for updates.
+
 Online CSV to JSON converter
 
 Easy, privacy-friendly and offline-first online csv to json converter
